@@ -1,6 +1,6 @@
 var Web3 = require('web3');
 var web3 = new Web3();
-web3.setProvider(new Web3.providers.HttpProvider("https://ropsten.infura.io/v3/c124d1746bbc40ee8b1b280a59399059"));
+web3.setProvider(new Web3.providers.HttpProvider("https://ropsten.infura.io/v3/{key}"));
 // var web3 = new Web3('https://mainnet.infura.io');
 
 function getLatestTxn(callback) {

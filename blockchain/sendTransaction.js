@@ -1,7 +1,7 @@
 var Web3 = require('web3');
 var util = require('ethereumjs-util');
 var tx = require('ethereumjs-tx');
-var web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io/v3/c124d1746bbc40ee8b1b280a59399059'));
+var web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io/v3/{key}'));
 
 function sendTransaction(address,key,to,value,input,callback) {
 // console.log(address);
