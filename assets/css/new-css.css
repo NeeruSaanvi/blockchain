@@ -1,0 +1,290 @@
+body.bodyBgEuroL{ background:url(../images/starsBG.png) top center,linear-gradient(0deg,#6e4589,#19193f); no-repeat;}
+.panel.panel-default {
+	background: transparent;
+	border-bottom: 1px solid #000;
+}
+.panel-default > .panel-heading {
+	background: none;
+	color: #000; padding-left:0;
+}
+.panel-body {
+	padding:15px 0;
+}
+.btn-back[data-v-58e729c6]{background:url(../images/back.png) no-repeat;}
+.ranking-table.w-100 th{text-align: center;
+    font-size: 14px;
+    padding-bottom: 15px;
+    color: #fff;padding-left: 0;
+    font-size: 12px;
+    font-weight: 600;}
+.ranking-table.w-100 td, .ranking-table.w-100 td, .ranking-table.w-100 td a {
+	line-height: 20px;
+	height: 20px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+.c-white {
+    color: #fff;
+}
+.value-1 {
+    width: 75px;
+}
+.value-2 {
+    width: 375px;
+}
+.value-3 {
+    width: 40px;
+}
+
+
+
+/*switch css*/
+$green: #56c080;
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system,".SFNSText-Regular","Helvetica Neue","Roboto","Segoe UI",sans-serif;
+}
+
+.toggle {
+	cursor: pointer;
+	display: inline-block;
+}
+.toggle-switch {
+	display: inline-block;
+	background: #fff;
+	border-radius: 16px;
+	width: 50px;
+	height: 25px;
+	position: relative;
+	vertical-align: middle;
+	transition: background 0.25s;
+	
+	}
+	.toggle-checkbox:checked + .toggle-switch:before {
+    left: 30px;
+}
+.toggle-switch:before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgb(47, 28, 80);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 3px;
+    position: absolute;
+    left: 4px;
+    transition: left 0.25s;
+    background: rebeccapurple;
+}
+.toggle-switch:before, .toggle-switch:after {
+    content: "";
+}
+.toggle-checkbox {
+	position: absolute;
+	visibility: hidden;
+}
+.toggle-label {
+	margin-left: 5px;
+	position: relative;
+	top: 2px;
+}
+.hacker-list li div {
+    font-size: 12px;
+}
+.hacker-list li {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0;
+}
+.ranking-table.w-100 td:nth-child(3), .ranking-table.w-100 td:nth-child(3) a {
+    color: #00ffc6;
+}
+
+.ranking-wrap .ranking-tab li[data-v-60d66592] {
+    color: #fff;
+}
+section.hacker-wrap.ResultList-h .vux-flexbox .vux-flexbox-item:nth-child(2) font[data-v-6811e003]{   color: #00ffc6;}
+.hacker.ticket, .vux-flexbox-item.lottery-fix-rank-right .ranking,  .ranking.ranking-wrap.rank-fix-left, .hacker.lottery-fix-resultlist{background-image: linear-gradient(to bottom left , #006b7c, #7ab49a);}
+.hacker.lottery-fix-resultlist .tal>a[data-v-6811e003]{color:#fff; font-weight:bold;}
+
+/*zooming css*/
+.hacker-wrap{position:relative;}
+.hacker.lottery-fix-resultlist, .hacker.ticket{
+  max-width: 100%;
+  
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.hacker-wrap:hover .hacker.lottery-fix-resultlist, .hacker-wrap:hover .hacker.ticket{
+
+}
+.divResultHistory.list-history {
+    height: 240px;
+    overflow-x: hidden;
+}
+
+
+.ranking-tab li{
+	    font-size: 14px;
+    float: left;
+    display: inline;
+    width: 50%;
+    text-align: center;
+    
+    cursor: pointer;
+}
+span.new-setting__btn:hover {
+    color: #fff;
+}
+
+.bodyBgEuroL .form-wrap[data-v-95e133fa]{    background:#220d5d !important;}
+.bodyBgEuroL .live-list span[data-v-60d66592], .bodyBgEuroL .live-list p[data-v-60d66592]{color: #fff ;
+    font-weight: bold;}
+    .new-setting__btn:hover {
+    background: #4f356e !important; color: #fff;
+}
+.new-setting__btn label:hover {
+    color: #fff;
+}
+.header-dropdown-white .logo[data-v-1a2d8164] {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#main[data-v-3f548920] {
+    display: none;
+}
+.hacker.lottery-fix-resultlist .vux-flexbox a {
+    color: #fff;
+    font-weight: bold;
+}
+.modal-content .modal-footer{border: none;}
+.modal-content .modal-header { border: none;   text-align: center;
+    width: 100%;
+    display: block;
+    padding: 0;
+    height: auto;
+}
+.modal-header button.close {
+    position: absolute;
+    right: 4px;
+    top: 0px;
+    background: black;
+    background-image: linear-gradient(to bottom left , #006b7c, #7ab49a);
+    opacity: 1;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0 !important;
+    height: 40px;
+    width: 40px;
+}
+
+
+/*modal popup vertically center*/
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; /* Adjusts for spacing */
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+table.ranking-table.w-100 tr td:nth-child(2), table.ranking-table.w-100 tr td:nth-child(3) {
+    cursor: pointer;
+}
+
+
+
+
+/*custom radio button */
+.radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #7ab49a;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked ~ .checkmark {
+  background-color: #7ab49a;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.modal-login .modal-dialog {
+    width: 100%;
+}
+.modal-opn .modal-header button.close {
+    position: static;
+}

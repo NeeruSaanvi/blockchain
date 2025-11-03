@@ -1,0 +1,58 @@
+
+ETHPlay Web version 
+
+DB Details changes into 2 files 
+Current DB username: root
+Pasword: ethPlay^&TR21
+URL: localhost
+DB name: lottery
+
+1. /result.php
+	For changing a DB username and password also URL with the host 
+
+	$con = mysqli_connect("localhost","root","ethPlay^&TR21","lottery");
+
+
+2. /application/config/database 
+	change in this file for changes of DB 
+	
+
+
+Change Bank Wallet address and Key 
+ Current Wallet address: 0x6537501c1a3a28f98371d1d112f3b64B5fBF24bE
+Current Private key of bank: 0xF01C605FC75CCFA690FA5DF8B9EB31509CF6C0DDA0915CB9E42702BF4034583A
+
+Find above and replace in below files 
+1. /result.php
+2. /application/config/constant.php
+
+
+Change ropsten network to mainnet
+Change URL (https://ropsten.infura.io/v3/fb65cf4b158e4ba89897f84c18d7ae42)with mainnet URL 
+Like https://mainet.infura.io/v3/{key}
+Replace this Url in below files 
+/application/views/Home/Home.php
+/blockchain/getLatestTxnByBlock.js
+/blockchain/getBalance.js
+/blockchain/sendTransactionHash.js
+/blockchain/getLatestTxn.js
+/blockchain/sendTransaction.js
+/createwallet/createAccount.js
+
+
+
+Change SMTP Details 
+Replace current SMTP details with new one, above is file path 
+/result/application/controllers/Lottery.php
+Replace info@pinesucceed.com with new one
+Also replace password and SMTP port 
+
+
+Deploy the project into Apache2, then change BaseURL into 
+/application/config/config.php 
+
+Import DB in mysql server. Install mysql server, then import Attached SQL file. 
+
+
+
+	

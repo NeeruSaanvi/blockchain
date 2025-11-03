@@ -1,0 +1,789 @@
+body::-webkit-scrollbar, .tab-content::-webkit-scrollbar {
+    width: .6em;
+}
+ 
+body::-webkit-scrollbar-track, .tab-content::-webkit-scrollbar-track, {
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+ 
+.tab-content::-webkit-scrollbar-thumb {background:#fff;outline: 1px solid #fff;}
+body::-webkit-scrollbar-thumb{
+  background-color: #220d5d;
+  outline: 1px solid #220d5d;
+}
+body {   background: url(../images/starsBG.png) top center,linear-gradient(0deg,#6e4589,#19193f) no-repeat;}
+.body {
+    background: none;
+    background-color: #3b3947;
+}
+a:hover{text-decoration:none;}
+body, button, input, select, textarea {
+    font: 14px/1.7 Tahoma, Helvetica, Arial, \\5B8B\4F53, sans-serif;
+}
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+body {
+    line-height: 1.6;
+    font-family: -apple-system-font, Helvetica Neue, sans-serif;
+}
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: -apple-system,".SFNSText-Regular","Helvetica Neue","Roboto","Segoe UI",sans-serif;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav.navbar {
+    position: relative;
+    z-index: 10;
+    height: 60px;
+    padding: 0 60px;
+    background-color: #050116 ;
+}
+ul.navbar-nav-right li.nav-item a {
+    color: #82808a;
+    text-transform: capitalize;
+}
+nav.navbar a{color:#fff;}
+a.navbar-brand {
+    height: 60px;
+    line-height: 58px;
+  
+    text-align: center;
+    font-size: 16px;
+    background-size: 12px auto;
+    padding-right: 30px;
+    text-transform: uppercase;
+    position: relative;
+    float: right;
+    display: inline;
+    margin-left: 30px;
+    border-right: 2px solid #1c192b;
+    cursor: pointer;
+    font-weight: bold;
+}
+section.body-inner, section.bottom-table {width: 920px; margin: 0 auto;}
+ul.navbar-nav li a {
+    text-transform: uppercase;
+    float: left;
+    display: inline;
+    margin-left: 30px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 16px;
+}
+.header-dropdown-white{
+    float: left;
+}
+.header-dropdown__title {
+    color: #fff;
+}
+a.logo.logo-lottery {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.item.tal a { color: #fff;}
+.item.tac a { color: #00ffc6;padding: 0 10px;font-weight: bold; letter-spacing: .3em;}
+.item.tal { flex: 1;float: left;}
+.w-min { padding-left: 35px;padding-right: 15px;}
+.w-max { width: 615px;padding-right: 50px;}
+.item.time{display:inline-block}
+.item.time a {color: #fff; padding-left: 10px;}
+.item.tac {     min-width: 80px;position:relative; float: left;}
+.item.tac:before {content: "[";  left: 3px;}
+.item.tac:before, .item.tac:after {position: absolute;color: #6caa95;font-size: 14px; font-weight: bold; line-height: 19px;}
+.item.tac:after { content: "]";  right: 0;}
+.data-table, .tickets {background-image: linear-gradient(to bottom left , #006b7c, #7ab49a);
+    box-shadow: 0 0 10px #000;
+    position: relative;
+    padding: 0 17px;
+    height: 320px;
+    padding-bottom: 10px;
+    background-color: #050116;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+	    overflow: hidden;
+}
+.data-header-left {height: 40px; text-align: center;  font-size: 12px; color: #fff;  padding: 0 17px;  display: block; padding-top: 20px;}
+.list-header {
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #150726;
+    padding: 0 17px;
+    padding-top: 20px;
+}
+.list-header span {display: inline-block;   color: #fff;}
+.tickets ul li {display: inline-flex; width: 100%; border-bottom: 1px solid #fff; padding: 5px 0;}
+.form-wrap {
+    width: 100%;
+    position: relative;
+	padding: 30px 25px;
+    font-size: 12px;
+    z-index: 1;
+    text-transform: uppercase;
+    background-color: #220d5d;
+    min-height: 200px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    box-shadow: 0 0 10px #3d2556;
+}
+section.ranking-wrap {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px #3d2556;
+    background-image: linear-gradient(to bottom left , #006b7c, #7ab49a);
+    padding: 20px 0;
+    color: #fff;
+}
+ul.ranking-tab {
+    text-align: center;
+}
+.live-list {
+    overflow: hidden;
+    height: 270px;
+    padding: 0 15px;
+    text-align: justify;
+}
+.wrap-box {
+    margin-top: 10px;
+}
+.wrap-box p {
+    font-size: 11px;
+    color: #444150;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+p.c-blue {
+    font-size: 12px;
+    color: #444150; font-weight:bold;
+}
+.left-text{ color: #fff;
+    padding-top: 10px;}
+	span.live-text-whte {
+    font-size: 14px;
+	    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.bottom-table .data-table {
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0;
+    overflow: hidden;
+    text-align: justify;
+	    width: 243px;
+    border-radius: 0;
+}
+.heading-top h4{font-size:14px; color:#fff;}
+.content-wrap-text {
+    padding: 8px 15px;
+    text-align: justify;
+}
+span.live-text-whte {
+    width: 50%;
+   
+}
+@font-face { font-family: 'Tahoma';
+  src:url(../fonts/tahoma/Tahoma/Tahoma.eot) format('embedded-opentype'),  url('../fonts/tahoma/Tahoma/Tahoma.woff') format('woff'), url('../fonts/tahoma/Tahoma/Tahoma.ttf')  format('truetype'), url('../fonts/tahoma/Tahoma/Tahoma.svg#Tahoma') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.tickets ul li a, .tickets ul li div{font-size:12px; color:#fff; /*float:left;*/}
+.value-1 {width: 75px;}
+.value-3 { width: 70px;  text-align: center;}
+.value-2 {width: 375px;}
+@font-face {
+  font-family: 'Tahoma-Bold';
+  src: url('../fonts/tahoma/Tahoma-Bold/Tahoma-Bold.eot') format('embedded-opentype'),  url('../fonts/tahoma/Tahoma-Bold/Tahoma-Bold.woff') format('woff'), url('../fonts/tahoma/Tahoma-Bold/Tahoma-Bold.ttf')  format('truetype'), url('../fonts/tahoma/Tahoma-Bold/Tahoma-Bold.svg#Tahoma-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.tab-pane .table thead th{font-size: 12px;text-align: center;padding-bottom:15px;}
+.table td, .table th, .table thead th { color:#fff;
+    border: none;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: .3rem;
+    line-height: 16px;
+	text-align: center;
+}
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee; text-align:center
+}
+.table td:nth-child(3n) a {
+    color: #00ffc6;    letter-spacing: .3em;
+}
+div#nav-tabContent {
+    height: 240px;
+    overflow-x: hidden;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: none;
+    font-size: 14px;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.project-tab .tickets {    padding: 20px 0;  border-radius: 0;}
+.project-tab .nav-link {
+    color: #00ffc6;
+    font-size: 16px;
+   
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+color: #fff;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+
+.top-list {
+    color: #fff;
+}
+
+.top-list .bet-limit, .numnber-warp, .no-white {
+    float: left;
+}
+.left-box-w-75 {display: inline-block;
+    width: 75%;
+    float: left;
+}
+span.list-devide {
+    line-height: 26px;
+    width: 100%;
+    margin: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+	    padding: 2px 43px;
+    background-image: linear-gradient(to bottom left , #006b7c, #7ab49a);
+}
+.pagination-button.reset {
+    float: left;
+    display: inline;
+    margin-left: 25px;
+}
+
+.pagination-link {
+    width: 100%;
+    display: inline-block;    margin-bottom: 5px;
+
+  
+}
+ul.pagination li a {
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    line-height: 20px;
+    color: #000;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+}
+ul.pagination li a:hover, .button-links .comman-div a:hover {
+    background-color: #4f356e; text-decoration:none;
+    border-color: #4f356e;
+    color: #fff;
+}
+.numnber-warp {
+    margin: 0 15px;
+}
+.no-white {
+    border: 1px solid #000;
+    border: 2px solid #f16517;
+    height: 26px;
+    line-height: 20px;
+    border-radius: 6px;
+
+    padding: 0 5px;
+}
+.button-links .comman-div a, .comman-div .lable-chekcbox-input{
+    /*background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;*/
+    width: 68px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    display: inline;
+    margin: 0 6px 6px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.countup-warp .text-o {
+    color: #00ffc6;
+}
+.countup-warp {
+    float: left;    line-height: 26px;
+}
+.countdown {
+    display: inline-block;
+    background-image: linear-gradient(to bottom left , #006b7c, #7ab49a);
+    color: #fff;
+    border-radius: 3px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-left: 15px;    padding: 0 5px;
+}
+.countdown i.fa { font-size: 16px; padding-right: 5px;line-height: 21px;}
+.combination { display: inline-block;  width: 23%;text-align: center; line-height: 26px;}
+.comman-div {margin-top: 10px; display: inline-block; width: 100%;}
+.auto-switch__control { padding-bottom: 10px;}
+.bet-list {float: right;color: #fff; display: flex;  width: 22%; position: relative; justify-content: center; line-height: 40px;}
+ul.pagination{float:left;}
+.bet-list:after {
+    position: absolute;
+    content: ""; background:url(../images/sllah-left.png) no-repeat; 
+   
+    width: 15px;
+    height: 15px;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+/*swith toggle css*/
+.switch {
+    display: inline-block;
+    background: #fff;
+    border-radius: 16px;
+    width: 50px;
+    height: 25px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00fbba6e;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+ content: "";
+    bottom: 4px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgb(47, 28, 80);
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    position: absolute;
+    left: 4px;
+    transition: left 0.25s;
+    background: rebeccapurple;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color:#fff ;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;    transform: translateX(0);
+}
+
+.left-box-w-25 {
+    width: 25%;
+    display: inline-block;
+}
+label.first-label {
+    display: block;
+    color: #fff;
+    width: 100%;
+    text-align: right;
+}
+.beat-amount p {
+    text-align: right;
+    color: #fff;
+}
+input[type="text"] {
+       background: transparent;
+    border: none;
+    color: #fff;
+    float: left;
+    width: 75px;
+    line-height: 26px;
+}
+.controlls {
+width: 100%;
+    padding: 0 5px;
+    height: 32px;
+    border: 2px solid #c3bacf;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.value-btn:hover{background: #f16517;}
+.controlls a, .value-btn {
+    float: right;
+    display: inline;
+    background-color: #000;
+    color: #fff;
+    height: 24px;
+    line-height: 23px;
+    overflow: hidden;
+    margin-top: 2px;
+    margin-right: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 0 4px;
+    font-size: 12px;
+}
+.value-btn {
+    border-color: #000;
+    padding: 0px 2px;
+}
+.switch-tabs {float: left;}
+ul.small-pagination.pagination { float: right;}
+.beat-text-box {
+	    display: inline-block;
+    padding-left: 30px;
+    background: url(../images/ETH-512.png) no-repeat; background-size: auto 24px;
+    background-position: top 25PX left;
+}
+.count-numner{padding-top:15px;}
+.count-numner p{color:#fff; font-size:12px; float:left}
+.count-numner p span{color:#00ffc6; padding-left:5px;}
+.count-numner p:last-child{float:right;}
+.bottom-table td.td-bsoe {  color: #fff;  font-size: 12px;}
+ul.small-pagination.pagination a.page-link, .small-pager-block label.check-inline .checkmark {
+    height: 25px;
+    width: 23px;
+    line-height: 12px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-item a.page-link:hover { color: #fff;}
+.page-item.active .page-link {color: #fff; border-color: #6bab96; border: 2px solid #6bab96; box-shadow: 0 0 10px #6bab96; background: transparent;}
+.log-in {float: right; color: #fff;left: 87%; position: absolute; right: -40px; bottom: -40px; width: 180px; height: 80px; background: url(../images/login.png) no-repeat;  background-size: auto 90px;}
+.login-box a {
+    position: absolute;  line-height: 96px;    text-align: center;    color: #fff;    transform: translate(-50%, 0);    left: 50%; font-size: 20px;}
+/*custom radio button */
+.radio { display: block;  position: relative;  padding-left: 35px;  margin-bottom: 12px; cursor: pointer; font-size: 18px;-webkit-user-select: none; -moz-user-select: none;  -ms-user-select: none;  user-select: none;}
+
+/* Hide the browser's default radio button */
+.radio input { position: absolute;  opacity: 0; cursor: pointer;}
+
+/* Create a custom radio button */
+.checkmark {position: absolute; top: 0; left: 0; height: 25px; width: 25px; background-color: #7ab49a;  border-radius: 50%;}
+
+/* On mouse-over, add a grey background color */
+.radio:hover input ~ .checkmark {  background-color: #ccc;}
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked ~ .checkmark {  background-color: #7ab49a;}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {  content: "";  position: absolute;  display: none;}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkmark:after {display: block;}
+/* Style the indicator (dot/circle) */
+.radio .checkmark:after {top: 9px; left: 9px; width: 8px;height: 8px; border-radius: 50%; background: white;}
+.modal-login .modal-dialog {width: 100%;}
+.modal-opn .modal-header button.close { position: static;}
+
+/*modal popup vertically center*/
+.modal {text-align: center; padding: 0!important;}
+
+.modal:before {content: ''; display: inline-block; height: 100%; vertical-align: middle;  margin-right: -4px; /* Adjusts for spacing */}
+.modal-dialog {display: inline-block;  text-align: left;  vertical-align: middle;}
+.modal-header button.close {
+    position: absolute;
+    right: 4px;
+    top: 0px;
+    background: black;
+    background-image: linear-gradient(to bottom left , #006b7c, #7ab49a);
+    opacity: 1;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0 !important;
+    height: 40px;
+    width: 40px;
+}
+
+
+/*cutom checkbox css*/
+.check-inline {
+  display: block;
+  height: 100%;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check-inline input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 29px;
+  background-color: #eee;
+ border-radius: 5px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lable-chekcbox-input {
+    float: left;
+    height: 40px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.check-inline:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-inline input:checked ~ .checkmark {
+    color: #fff; border-color: #6bab96; border: 2px solid #6bab96; box-shadow: 0 0 10px #6bab96; background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check-inline input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-inline .checkmark:after {
+  /*left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);*/
+}
+
+
+.comman-div .lable-chekcbox-input label.check-inline span.checkmark {
+    
+    width: 100%;
+}
+.pagination-button.select .lable-chekcbox-input label.check-inline {
+ 
+    color: #000;
+}
+
+.small-pager-block .lable-chekcbox-input {
+    width: 25px;
+}
+.small-pager-block .lable-chekcbox-input label.check-inline {
+    padding: 0;
+}
+.small-pager-block .lable-chekcbox-input {
+    height: 25px;
+    width: 20px;
+}
+
+.small-pager-block {
+    margin-bottom: 134px;
+        display: inline-block;
+}
+.check-inline.all-btn, .reset-btn {
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 5px;
+ /*   background-color: #fff;*/
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 7px;
+    position: relative;
+    height: 40px;
+    width: 25px;
+  cursor: pointer; margin-top: 0;
+}
+.lable-chekcbox-input.all-btn, label#all-btn {
+    /*width: 40px;
+    height: 40px;*/ position: relative;
+}
+button.reset-btn { position: relative;
+    width: 100px;    border: none;
+}
+
+button.reset-btn:hover , .all-btn lable-chekcbox-input:hover {
+    color: #fff;
+    border-color: #6bab96;
+    border: 2px solid #6bab96;
+    box-shadow: 0 0 10px #6bab96;
+    background: transparent;
+}
+.all-btn.active-new:after, .controlls a:hover {
+    background: #f16517;
+}
+.all-btn:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    display: block;
+    right: 5px;
+    top: 5px;
+    background-color: #381e2852;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.lable-chekcbox-input.all-btn {
+    width: 40px;
+}
+.lable-chekcbox-input.all-btn span.checkmark {
+    width: 40px;
+    margin-right: 10px;
+}
+.all-btn:hover:after, .all-btn:active:after{background: #f16517;} 
+.pagination-link:last-child .bet-list:after {
+    visibility: hidden;
+}
+
+
+.pagination-button button.reset-btn {
+    width: auto;
+    padding: 0 10px; margin-left: 10px;
+}
+ .w-min {
+    width: 294px;
+}
+input.checkBoxClass.new
+ {
+    color: #fff;
+    border-color: #6bab96;
+    border: 2px solid #6bab96;
+    box-shadow: 0 0 10px #6bab96;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tickets ul li .value-2 a{display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;}   
+.tickets ul li .value-1, .tickets ul li .value-3 {
+    display: inline-block; text-align: center;
+}
+.value-2 a {
+    letter-spacing: 1.3px;
+}
+ul.list li .value-2 {
+    width: 385px;
+}
