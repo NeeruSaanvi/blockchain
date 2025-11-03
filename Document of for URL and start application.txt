@@ -2,15 +2,15 @@
 ETHPlay Web version 
 
 DB Details changes into 2 files 
-Current DB username: root
-Pasword: ethPlay^&TR21
-URL: localhost
-DB name: lottery
+Current DB username:
+Pasword: 
+URL:
+DB name:
 
 1. /result.php
 	For changing a DB username and password also URL with the host 
 
-	$con = mysqli_connect("localhost","root","ethPlay^&TR21","lottery");
+	$con = mysqli_connect("localhost","","","lottery");
 
 
 2. /application/config/database 
@@ -19,8 +19,8 @@ DB name: lottery
 
 
 Change Bank Wallet address and Key 
- Current Wallet address: 0x6537501c1a3a28f98371d1d112f3b64B5fBF24bE
-Current Private key of bank: 0xF01C605FC75CCFA690FA5DF8B9EB31509CF6C0DDA0915CB9E42702BF4034583A
+ Current Wallet address:
+Current Private key of bank: 
 
 Find above and replace in below files 
 1. /result.php
